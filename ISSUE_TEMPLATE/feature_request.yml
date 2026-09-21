@@ -1,0 +1,29 @@
+name: "Feature Request"
+description: "Multron ekosistemi için yeni bir yetenek veya optimizasyon önerin"
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Çözülmek İstenen Problem
+      description: Bu özellik hangi darboğazı, eksikliği veya kullanıcı sorununu çözecek?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Önerilen Çözüm / Mimari
+      description: Bu özelliğin nasıl çalışmasını öneriyorsunuz?
+    validations:
+      required: true
+  - type: checkboxes
+    id: philosophy_check
+    attributes:
+      label: Felsefi Uygunluk Kontrolü
+      description: Multron prensiplerine uyum taahhüdü.
+      options:
+        - label: "Bu özellik uygulamaya gereksiz harici kütüphane bağımlılığı (bloat) eklemez."
+          required: true
+        - label: "Kullanıcı verisi takibi (telemetry) veya gizlilik ihlali barındırmaz."
+          required: true

@@ -1,0 +1,51 @@
+name: "Bug Report"
+description: "Sistemde veya indirme motorunda karşılaşılan bir hatayı bildirin"
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Multron ekosistemine hata bildirdiğiniz için teşekkürler. Lütfen bildirimi göndermeden önce benzer bir hatanın açılıp açılmadığını aratın.
+  - type: dropdown
+    id: component
+    attributes:
+      label: İlgili Bileşen / Katman
+      description: Hatanın hangi modülde ortaya çıktığını seçin.
+      options:
+        - "Core Download Engine (Rust / Ağ Motoru)"
+        - "Desktop UI / Tauri Shell"
+        - "Browser Integration / Extension Bridge"
+        - "Diğer / Bilinmiyor"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: İşletim Sistemi
+      description: Hatanın görüldüğü işletim sistemi ve mimari.
+      options:
+        - "macOS (Apple Silicon - M1/M2/M3)"
+        - "macOS (Intel x86_64)"
+        - "Windows 11 / 10 (x64)"
+        - "Linux (x86_64)"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Hatayı Yeniden Üretme Adımları
+      description: Sorunun nasıl tetiklendiğini adım adım listeleyin.
+      placeholder: |
+        1. Şu URL ile indirme başlat: '...'
+        2. İndirmeyi 4 parçalı (dynamic split) modunda duraklat
+        3. 10 saniye sonra devam ettir
+        4. Bellek taşması / çökme gözlemle
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Terminal / Uygulama Logları
+      description: Varsa hata anında terminalde veya log dosyasında çıkan hata çıktılarını buraya yapıştırın.
+      render: shell
