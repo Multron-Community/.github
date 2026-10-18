@@ -34,57 +34,6 @@ Multron Community is dedicated to building modern desktop utilities engineered f
 
 ---
 
-## 🚀 Flagship Project: Multron Download Manager
-
-We are actively engineering **Multron Download Manager**, a modern, multi-threaded acceleration client designed to replace legacy and ad-ridden download tools.
-
-### Core Capabilities
-
-| Feature | Description | Status |
-| :--- | :--- | :---: |
-| **Multi-Segment Engine** | Dynamic byte-range splitting for saturation of maximum bandwidth | ⚙️ In Progress |
-| **Smart Queue & Scheduling** | Prioritized downloads, batch processing, and auto-resume capabilities | ⚙️ In Progress |
-| **Stream & Protocol Parsing** | HTTP/HTTPS, segmented chunks, and direct mirror handshakes | ⚙️ In Progress |
-| **Browser Handshake** | Lightweight native-messaging bridge for one-click browser capture | 📋 Planned |
-| **Clean Modern Interface** | Dark-mode native UI built with responsive telemetry-free design | 🎨 Designing |
-
----
-
-## 🛠️ Technology & Ecosystem
-
-Our engineering stack emphasizes speed, type safety, and memory security:
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-
----
-
-## 🗺️ Project Roadmap
-
-```mermaid
-gantt
-    title Multron Download Manager Roadmap
-    dateFormat  YYYY-MM-DD
-    section Core Engine
-    Segmented Network Core     :done,    des1, 2026-08-01, 2026-09-01
-    Chunk Integrity & Checksum :active,  des2, 2026-09-01, 2026-10-15
-    section Client UI
-    Design System & Shell      :active,  des3, 2026-09-10, 2026-10-20
-    Queue State Manager        :         des4, 2026-10-20, 2026-11-15
-    section Integrations
-    Browser Extension Bridge   :         des5, 2026-11-15, 2026-12-15
-```
-
----
-
 ## 🤝 Community & Contributions
 
 We actively encourage contributions from developers, designers, and testers of all skill levels.
@@ -101,7 +50,5 @@ git clone https://github.com/Multron-Community/<repository-name>.git
 ---
 
 <div align="center">
-
-<sub>Maintained by **Multron Community** • Licensed under the MIT License</sub>
 
 </div>
